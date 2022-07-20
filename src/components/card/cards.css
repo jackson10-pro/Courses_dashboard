@@ -1,0 +1,148 @@
+#card1 {
+  position: relative;
+  left: 250px;
+  bottom: 1600px;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 10px 20px 30px rgb(238, 232, 232);
+  margin-right: 25px;
+  padding-left: 15px;
+}
+
+/* Section two elements */
+#section_two img {
+  position: relative;
+  right: 0.35px;
+  top: 0.02px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+#span_img {
+  position: relative;
+  bottom: 5px;
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(100, 127, 131);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#php_label {
+  display: inline-block;
+  background-color: rgb(81, 90, 143);
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+#beginner_label {
+  display: inline-block;
+  position: relative;
+  left: 45px;
+  bottom: 40px;
+  font-size: 10px;
+  color: rgb(140, 201, 168);
+}
+
+#section_one h3 {
+  position: relative;
+  left: 45px;
+  bottom: 39px;
+  width: 100px;
+  font-family: cursive;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+/* Section two elements */
+
+#section_two {
+  position: relative;
+  bottom: 100px;
+  width: 200px;
+  margin-top: 5px;
+}
+
+#by {
+  position: relative;
+  bottom: 10px;
+  font-size: 12px;
+  font-family: cursive;
+  opacity: 0.5;
+}
+
+#customer_name {
+  position: relative;
+  bottom: 10px;
+  font-size: 12px;
+  font-family: cursive;
+  opacity: 0.8;
+}
+
+#card_main {
+  display: flex;
+}
+
+#card_lastSection {
+  /* display: inline-flex; */
+  position: relative;
+  bottom: 210px;
+  width: 180px;
+  height: 40px;
+  border-top: 1px solid rgba(233, 235, 235, 0.692);
+  /* text-align: center; */
+  /* background-color: aquamarine; */
+}
+
+#card_lastSection span,
+#card_lastSection div,
+#card_lastSection img {
+  display: inline-block;
+}
+
+.nums {
+  position: relative;
+  bottom: 5px;
+  font-family: cursive;
+  font-size: 8px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+#last_num {
+  opacity: 0.5;
+}
+
+#progress {
+  box-sizing: border-box;
+  width: 70px;
+  height: 3px;
+  background-color: rgba(233, 235, 235, 0.692);
+  border-radius: 5px;
+  margin: 10px;
+  line-height: 10px;
+}
+
+#progress div {
+  position: relative;
+  bottom: 7px;
+  background-color: rgb(59, 27, 119);
+  width: 40px;
+  border-radius: 10px;
+}
+
+#card_lastSection img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 5px;
+}
