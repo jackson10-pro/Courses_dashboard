@@ -23,7 +23,7 @@ export class App extends React.Component{
                 <div id="title">
                     <CardHeader />
                 </div>
-                <div>
+                <div id="sc">
                     <Cardt />
                 </div>
                 

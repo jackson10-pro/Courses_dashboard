@@ -65,6 +65,26 @@ let card3 = {
   num2: 8,
   country: america,
 };
+// let card4 = {
+//   iconLabel: <IoLogoPython size="2em" />,
+//   levelLabel: "Advanced",
+//   header3: "Python Developer",
+//   imageSrc: ben,
+//   nameLabel: "Jenny Wilson",
+//   bgcolor: {
+//     "background-color": "rgb(56, 99, 218)",
+//   },
+//   color: {
+//     color: "rgb(238, 115, 168)",
+//   },
+//   percent: 21,
+//   width: {
+//     width: "27%",
+//   },
+//   num1: 3,
+//   num2: 8,
+//   country: america,
+// };
 class Cards extends React.Component {
   render() {
     return (
@@ -149,6 +169,20 @@ export class Cardt extends React.Component {
           num2={card3.num2}
           country={card3.country}
         />
+         {/* <Cards
+          iconLabel={card4.iconLabel}
+          levelLabel={card4.levelLabel}
+          header3={card4.header3}
+          imageSrc={card4.imageSrc}
+          nameLabel={card4.nameLabel}
+          bgcolor={card4.bgcolor}
+          color={card4.color}
+          percent={card4.percent}
+          width={card4.width}
+          num1={card4.num1}
+          num2={card4.num2}
+          country={card4.country}
+        /> */}
         </div>
     );
   }
